@@ -10,6 +10,16 @@ h2{
     margin-top: 0;
     margin-bottom: 15px;
 }
+h3{
+    font-size:36px;
+    font-weight: 900;
+    color:#1F2937;
+    text-align: center;
+}
+.item img{
+    height:100px;
+    width: auto;
+}
 button{
     color: #e5e7eb;
     background-color: #3882F6;
@@ -17,6 +27,28 @@ button{
     padding: 10px;
     border-radius: 50px;
     border: 0px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.itemcontainer{
+    display: flex;
+    gap:50px;
+    justify-content: space-around;
+}
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 10%;
 }
 .logo{
     height: 50px;
@@ -40,7 +72,6 @@ button{
     margin: 10px;
     font-size: 18px;
     padding: 0;
-
 }
 
 a{
@@ -48,8 +79,8 @@ a{
     text-decoration: none;
 }
 .heroimage{
-    width: auto;
     height: 320px;
+    flex-grow: 1;
 }
 .stripe{
     padding-right: 20vh;
@@ -57,7 +88,7 @@ a{
 }
 .first.stripe{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 100px;
     background-color: #1F2937;
     color: #e5e7eb;
@@ -66,5 +97,57 @@ a{
 #herotext{
     display: flex;
     flex-direction: column;
-    max-width: 36%;
+    flex-grow: 4;
+    margin-right: 10%;
+}
+.quote.stripe{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+.action{
+    display: flex;
+    justify-content: center;
+}
+.bluecontainer{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    margin:50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    color:#e5e7eb;
+    min-width: 50%;
+    align-items: center;
+
+}
+.calltoaction{
+    font-weight: bold;
+}
+
+#signup{
+    border:2px solid #e5e7eb;
+    padding: 0;
+    max-width: 100px;
+    height:50px;
+}
+#thor{
+    text-align: right;
+    font-size: 28px;
+    color: #1F2937;
+    font-weight:bold;
+    margin-right: 50px;
+}
+#quote{
+    font-size: 30px;
+    font-weight:lighter;
+    font-style: italic;
+    color: #1F2937;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
 }
